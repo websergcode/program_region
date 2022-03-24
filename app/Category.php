@@ -18,4 +18,6 @@ use Illuminate\Support\Carbon;
 class Category extends Model
 {
     protected $guarded = [];
+
+
 }
