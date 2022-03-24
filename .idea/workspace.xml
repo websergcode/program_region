@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eab68462-18e7-4182-9d33-373c0839b689" name="Default Changelist" comment="" />
+    <list default="true" id="eab68462-18e7-4182-9d33-373c0839b689" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/migrations/2022_03_24_151851_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2022_03_24_171718_create_images_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_docker/app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/_docker/app/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_docker/app/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/_docker/app/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_03_24_193129_create_articles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_03_24_193129_create_articles_table.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +18,9 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -140,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648151451856</updated>
-      <workItem from="1648151455670" duration="543000" />
+      <workItem from="1648151455670" duration="3318000" />
     </task>
     <servers />
   </component>
