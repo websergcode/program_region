@@ -16,7 +16,7 @@ use Illuminate\Support\Carbon;
  * @property Carbon $created_at
  *
  * Миграция
- * @see CreateCategoriesTable
+ * @see CreateArticlesTable
  */
 class Article extends Model
 {
