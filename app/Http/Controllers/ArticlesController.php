@@ -19,6 +19,7 @@ class ArticlesController extends Controller
             ->where('category_id', $data['category'])
             ->with('category')
             ->with('image')
+            ->orderByDesc('created_at')
             ->paginate(5);
 
         if ($articles->isEmpty()) {
@@ -32,7 +33,7 @@ class ArticlesController extends Controller
                 'description' => $article->description,
                 'image' => $article->image->url,
                 'category' => $article->category->name,
-                'createdAt' => $article->created_at,
+                'createdAt' => $article->created_at->format('d-m-Y H:m:s'),
             ];
         })->toArray();
 
